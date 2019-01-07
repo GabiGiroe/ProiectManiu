@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CalManV2"
+             x:Class="CalManV2.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label x:Name="Output"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="Input"
+               TextChanged="Input_TextChanged"
+               Keyboard="Numeric"
+            />
+        <Button
+            Clicked="Button_Clicked"
+            Text="ClickMe"
+            />
+    </StackLayout>
+
+</ContentPage>
